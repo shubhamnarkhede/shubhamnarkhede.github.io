@@ -37,7 +37,7 @@ const Header = () => {
           </nav>
           <div className="flex items-center space-x-4">
             <a
-              href="https://github.com"
+              href="https://github.com/shubhamnarkhede"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-600 transition-colors"
@@ -45,7 +45,7 @@ const Header = () => {
               <Github className="w-5 h-5" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/shubhamnarkhede"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-600 transition-colors"
@@ -53,7 +53,7 @@ const Header = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:shubhamvnarkhede@gmail.com"
               className="hover:text-gray-600 transition-colors"
             >
               <Mail className="w-5 h-5" />
