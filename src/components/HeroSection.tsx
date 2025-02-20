@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Download, Send } from 'lucide-react';
-import YourProfileImage from '@/assets/Shubham.png'; // Import your image
+import YourProfileImage from '@/assets/Shubham.png';
+import RESUME from '@/assets/Shubham Narkhede.pdf';
 
 const HeroSection = () => {
   const [text, setText] = useState('');
@@ -67,7 +68,7 @@ const HeroSection = () => {
               Contact Me
             </a>
             <a 
-              href="@assets/Shubham_Narkhede.pdf" 
+              href={RESUME} 
               download 
               className="flex items-center gap-2 px-6 py-3 border border-white/50 text-white rounded-full hover:bg-white/10 transition"
             >
